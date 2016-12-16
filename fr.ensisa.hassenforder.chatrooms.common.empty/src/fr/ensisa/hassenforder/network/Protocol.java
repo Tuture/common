@@ -7,8 +7,14 @@ public interface Protocol {
 	
 	public static final int RP_OK		= 1;
 	public static final int RP_KO		= 2;
+	public static final int RP_CHANNELS 	= 6;
 	
-	public static final int RQ_CONNECT		= 3;
+	
+	
+	public static final int RQ_CONNECT	= 3;
+	public static final int RQ_CHANNEL  = 4;
+	public static final int RQ_LOAD 	= 5;
+	
 	
 	/*public static final int RQ_CREATE_ROOM 		= 11;
 	public static final int RQ_GET_ROOM 		= 5;
