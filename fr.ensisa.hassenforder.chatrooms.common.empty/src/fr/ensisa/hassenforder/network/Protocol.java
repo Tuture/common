@@ -8,6 +8,7 @@ public interface Protocol {
 	public static final int RP_OK		= 1;
 	public static final int RP_KO		= 2;
 	public static final int RP_CHANNELS 	= 6;
+	public static final int RP_LOAD = 7;
 	
 	
 	
