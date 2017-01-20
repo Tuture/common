@@ -22,4 +22,7 @@ public interface Protocol {
 	public static final int  RQ_SENTMESSAGE  		= 11;
 	public static final int  RQ_APPROBATION  		= 12; // Valider / Invalider un message dans un channel modéré
 	public static final int  RQ_SEND_MESSAGE 		= 13;
+	
+	public static final int FREE = 15;
+	public static final int MODERATED = 16;
 }
